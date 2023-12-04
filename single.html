@@ -100,7 +100,6 @@
     <img id="fire" src="img/fire.gif" style="position: fixed; bottom: 0; visibility: hidden; width: 100%;">
     <img id="speed" src="img/speed.gif" style="position: fixed; bottom: 0; visibility: hidden; width: 100%;">
     <img id="mind" src="img/mind.gif" style="position: fixed; bottom: 0; visibility: hidden; width: 100%;">
-    <img id="invis" src="img/invis.gif" style="position: fixed; bottom: 0; visibility: hidden; width: 100%;">
     <script type = "text/javascript">
         function showFire() {
             document.getElementById('fire').style.visibility = 'visible';
@@ -119,12 +118,6 @@
         }
         function hideMind(){
             document.getElementById('mind').style.visibility = 'hidden';
-        }
-        function showInvis(){
-            document.getElementById('invis').style.visibility = 'visible';
-        }
-        function hideInvis(){
-            document.getElementById('invis').style.visibility = 'hidden';
         }
     </script>
 
@@ -160,12 +153,12 @@
                                     While she insists on using her powers responsibly, Chad's occasional hobby of finishing people's sentences is too much of a temptation to avoid. 
                                     Residents now have made a game out of thinking the most random thoughts whenever she's nearby.</p>
                                     <h4 class="mb-3">Faster Than Your Average Joe:</h4>
-                                <img class="img-fluid w-50 float-left mr-4 mb-2" src="img/news-500x280-1.jpg" onmouseover = "showSpeed()" onmouseleave="hideSpeed()">
+                                <img id="speedPhoto" class="img-fluid w-50 float-left mr-4 mb-2" src="img/news-500x280-1.jpg" onmouseover = "showSpeed()" onmouseleave="hideSpeed()">
                                 <p>Dash has become the town's own superhero with a talent for speed that rivals a caffeinated cheetah. 
                                     Whether he's dashing through errands or unintentionally setting the pace during a neighborhood jog, 
                                     Stan's rapid movements have turned him into the town's unwitting timekeeper. Town Mayor has recently proposed the idea of the "Dash-lympics", just to see who can keep up with him.</p>
                                     <h5 class="mb-3">Invisible Antics Unleashed:</h5>
-                                <img class="img-fluid w-50 float-right ml-4 mb-2" src="img/news-500x280-2.jpg" onmouseover = "showInvis()" onmouseleave="hideInvis()">
+                                <img  id="invisPhoto" class="img-fluid w-50 float-right ml-4 mb-2" src="img/news-500x280-2.jpg" onmouseover = "showInvis()" onmouseleave="hideInvis()">
                                 <p>Tony, the town's invisible prankster, keeps everyone on their toes. From rearranging furniture in public spaces to playing invisible tag in the park, Tony's unseen shenanigans have added a playful twist to daily life. 
                                     There's a running bet in town about who can catch a glimpse of Tony's invisible antics, turning every encounter into a potential game of hide-and-seek.</p>
 
