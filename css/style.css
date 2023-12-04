@@ -9660,12 +9660,17 @@ h6,
 
   /* When the animation is finished, start again */
   animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
 #invisPhoto:hover{
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s 2s, opacity 0.1s linear;
+  cursor: pointer;
+}
+#speedPhoto:hover{
+  cursor: pointer;
 }
 
 @keyframes shake {
@@ -9680,3 +9685,32 @@ h6,
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+.popup { display: none; }
+.popup.open { display: block; }
+.blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: ' ';
+    background: rgba(0,0,0,.5);
+    z-index: 98;
+}
+.popup .contents {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
