@@ -102,9 +102,27 @@
     <img id="mind" src="img/mind.gif" style="position: fixed; bottom: 0; visibility: hidden; width: 100%;">
     
     
-    <div class="popup">
-        <div class="blocker" onclick="hidePopup()"></div>
-        <div class="contents">This is popup</div>
+    <div class="popupFire">
+        <div class="blocker" onclick="hidePopupFire()"></div>
+        <div class="contents">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MLMIUGdB4NU?si=_cPuoCgFwLUyJVVd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </div>
+      </div>
+      <div class="popupSpeed">
+        <div class="blocker" onclick="hidePopupSpeed()"></div>
+        <div class="contents">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kteHbTmNLHQ?si=ege2OPQoNAcbBXEJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      </div>
+      </div>
+            <div class="popupMind">
+        <div class="blocker" onclick="hidePopupMind()"></div>
+        <div class="contents">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E1WaaZr5Q-U?si=f42MTsh4GGo0uGEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="popupInvis">
+        <div class="blocker" onclick="hidePopupInvis()"></div>
+        <div class="contents">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Szk4NC_gwdw?si=5RX6nY1jnzAgqZt3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </div>
     <!-- News With Sidebar Start -->
     <div class="container-fluid py-3">
@@ -113,7 +131,7 @@
                 <div class="col-lg-8">
                     <!-- News Detail Start -->
                     <div class="position-relative mb-3">
-                        <img class="img-fluid w-100" src="img/news-700x435-2.jpg" style="object-fit: cover;">
+                        <img class="img-fluid w-100" src="img/speedThumbnail.png" style="object-fit: cover;">
                         <div class="overlay position-relative bg-light">
                             <div class="mb-3">
                                 <a href="">Trending</a>
@@ -128,22 +146,22 @@
                                 <p>Gathered from all walks of life, these extraordinary individuals have unintentionally formed a league of their own, despite their reluctance to label themselves as such.
                                     The town's residents now find themselves amidst a daily spectacle, as the air crackles with the energy of the extraordinary and the mundane mingles seamlessly with the bizarre.</p>
                                 <h4 class="mb-3">Firestarter on Main Street:</h4>
-                                <img id="firePhoto" class="img-fluid w-50 float-left mr-4 mb-2" src="img/news-500x280-1.jpg" onmouseover = "showFire()" onmouseleave="hideFire()" onclick="showPopup()">
+                                <img id="firePhoto" class="img-fluid w-50 float-left mr-4 mb-2" src="img/fireThumbnail.png" onmouseover = "showFire()" onmouseleave="hideFire()" onclick="showPopupFire()" style="border: 2px solid;">
                                 <p>Meet Paul Blaze, the guy who seems to have a knack for spontaneous combustion, accidentally turning mundane moments into mini fireworks displays. 
                                     Whether he's lighting a birthday cake or just enjoying a barbecue, Barry adds a spark to the ordinary that's hard to ignore. </p>
                                     <p>Locals affectionately call him the "Flame Guy," and there are rumors about him being the town's unofficial BBQ organizer.</p>
                                 <h5 class="mb-3">Mind-Reading Neighbor Next Door:</h5>
-                                <img id="mindPhoto"class="img-fluid w-50 float-right ml-4 mb-2" src="img/news-500x280-2.jpg" onmouseover = "showMind()" onmouseleave="hideMind()" >
+                                <img id="mindPhoto"class="img-fluid w-50 float-right ml-4 mb-2" src="img/mindThumbnail.png" onmouseover = "showMind()" onmouseleave="hideMind()" onclick="showPopupMind()"style="border: 2px solid;">
                                 <p>Chad Davis, your friendly telepathic neighbor, might just know what you're thinking before you say it. 
                                     While she insists on using her powers responsibly, Chad's occasional hobby of finishing people's sentences is too much of a temptation to avoid. 
                                     Residents now have made a game out of thinking the most random thoughts whenever she's nearby.</p>
                                     <h4 class="mb-3">Faster Than Your Average Joe:</h4>
-                                <img id="speedPhoto" class="img-fluid w-50 float-left mr-4 mb-2" src="img/news-500x280-1.jpg" onmouseover = "showSpeed()" onmouseleave="hideSpeed()">
+                                <img id="speedPhoto" class="img-fluid w-50 float-left mr-4 mb-2" src="img/speedThumbnail.png" onmouseover = "showSpeed()" onmouseleave="hideSpeed()" onclick="showPopupSpeed()"style="border: 2px solid;">
                                 <p>Dash has become the town's own superhero with a talent for speed that rivals a caffeinated cheetah. 
                                     Whether he's dashing through errands or unintentionally setting the pace during a neighborhood jog, 
                                     Stan's rapid movements have turned him into the town's unwitting timekeeper. Town Mayor has recently proposed the idea of the "Dash-lympics", just to see who can keep up with him.</p>
                                     <h5 class="mb-3">Invisible Antics Unleashed:</h5>
-                                <img  id="invisPhoto" class="img-fluid w-50 float-right ml-4 mb-2" src="img/news-500x280-2.jpg" onmouseover = "showInvis()" onmouseleave="hideInvis()">
+                                <img  id="invisPhoto" class="img-fluid w-50 float-right ml-4 mb-2" src="img/invisThumbnail.png" onmouseover = "showInvis()" onmouseleave="hideInvis()" onclick="showPopupInvis()"style="border: 2px solid;">
                                 <p>Tony, the town's invisible prankster, keeps everyone on their toes. From rearranging furniture in public spaces to playing invisible tag in the park, Tony's unseen shenanigans have added a playful twist to daily life. 
                                     There's a running bet in town about who can catch a glimpse of Tony's invisible antics, turning every encounter into a potential game of hide-and-seek.</p>
 
@@ -231,26 +249,26 @@
                         </div>
                         <div class="d-flex mb-3">
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #39569E;">
-                                <small class="fab fa-facebook-f mr-2"></small><small>12,345 Fans</small>
+                                <small class="fab fa-facebook-f mr-2"></small><small>125,000 Fans</small>
                             </a>
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #52AAF4;">
-                                <small class="fab fa-twitter mr-2"></small><small>12,345 Followers</small>
+                                <small class="fab fa-twitter mr-2"></small><small>100,000 Followers</small>
                             </a>
                         </div>
                         <div class="d-flex mb-3">
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #0185AE;">
-                                <small class="fab fa-linkedin-in mr-2"></small><small>12,345 Connects</small>
+                                <small class="fab fa-linkedin-in mr-2"></small><small>10,300 Connects</small>
                             </a>
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #C8359D;">
-                                <small class="fab fa-instagram mr-2"></small><small>12,345 Followers</small>
+                                <small class="fab fa-instagram mr-2"></small><small>230,000 Followers</small>
                             </a>
                         </div>
                         <div class="d-flex mb-3">
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none mr-2" style="background: #DC472E;">
-                                <small class="fab fa-youtube mr-2"></small><small>12,345 Subscribers</small>
+                                <small class="fab fa-youtube mr-2"></small><small>20,000 Subscribers</small>
                             </a>
                             <a href="" class="d-block w-50 py-2 px-3 text-white text-decoration-none ml-2" style="background: #1AB7EA;">
-                                <small class="fab fa-vimeo-v mr-2"></small><small>12,345 Followers</small>
+                                <small class="fab fa-vimeo-v mr-2"></small><small>120,300 Followers</small>
                             </a>
                         </div>
                     </div>
@@ -262,14 +280,14 @@
                             <h3 class="m-0">Newsletter</h3>
                         </div>
                         <div class="bg-light text-center p-4 mb-3">
-                            <p>Aliqu justo et labore at eirmod justo sea erat diam dolor diam vero kasd</p>
+                            <p>Stay updated with the latest news!</p>
                             <div class="input-group" style="width: 100%;">
                                 <input type="text" class="form-control form-control-lg" placeholder="Your Email">
                                 <div class="input-group-append">
                                     <button class="btn btn-primary">Sign Up</button>
                                 </div>
                             </div>
-                            <small>Sit eirmod nonumy kasd eirmod</small>
+                            <small>We will not disclose your email to other services.</small>
                         </div>
                     </div>
                     <!-- Newsletter End -->
@@ -478,13 +496,33 @@
         function hideMind(){
             document.getElementById('mind').style.visibility = 'hidden';
         }
-        const popup = document.querySelector('.popup');
-        function showPopup() {
-            console.log(popup);
-            popup.classList.add('open');
+        const popupFire = document.querySelector('.popupFire');
+        function showPopupFire() {
+            popupFire.classList.add('open');
         }
-        function hidePopup() {
-            popup.classList.remove('open');
+        function hidePopupFire() {
+            popupFire.classList.remove('open');
+        }
+        const popupMind = document.querySelector('.popupMind');
+        function showPopupMind() {
+            popupMind.classList.add('open');
+        }
+        function hidePopupMind() {
+            popupMind.classList.remove('open');
+        }
+        const popupSpeed = document.querySelector('.popupSpeed');
+        function showPopupSpeed() {
+            popupSpeed.classList.add('open');
+        }
+        function hidePopupSpeed() {
+            popupSpeed.classList.remove('open');
+        }
+        const popupInvis = document.querySelector('.popupInvis');
+        function showPopupInvis() {
+            popupInvis.classList.add('open');
+        }
+        function hidePopupInvis() {
+            popupInvis.classList.remove('open');
         }
     </script>
 </html>
