@@ -46,6 +46,11 @@ While shooting, we played around with lighting, moving in and out of shadow, and
 
 ## Editing
 
+## Web Design
+For the Web Design process, we decided to utilize a template in order to adapt it to our needs. Doing this allowed us to focus on the interactive parts of the website and creating an experience that would be entertaining and inmersive enough. In order to allow the reader to feel as if it was a real news website, we added multiple fake news that are both related to general modern news or news related to the super powers, which is a component that simulates how news would somehow react if super powers appeared in real life. 
+The interactive parts of the application come from the idea of changing the aesthetic of the page based on the powers, each of them symbolizing something different. This is also combined with the fact that we wanted to keep the "news website" aesthetic, so we had to create a change in the website that wouldnt disrupt the whole experience. After all, the idea was to have a news website.
+
+
 
 ## Each of our roles were very much multi-disciplinary and well rounded, with each person getting a chance to:
 - Script/ storyboard
