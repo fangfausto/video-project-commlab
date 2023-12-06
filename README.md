@@ -1,9 +1,9 @@
-# The Newsroom
+# Superheroes On The News
 ## By Sara, Naijah, Sneheel, and Fausto
 
 # What is the project? What is the overall concept and theme? What kind of experience you were striving to create?
 
-For our video project, we wrote, produced, and edited The Newsroom, a The Office-style mockumentary of a breaking news segment that interviews three citizens-turned-superheroes. After the breaking news segment is introduced by news anchor Polly Esther, we follow co-anchor Holly Day around campus as she meets individuals with:
+For our video project, we wrote, produced, and edited "Superheroes On The News", a The Office-style mockumentary of a breaking news segment that interviews three citizens-turned-superheroes. After the breaking news segment is introduced by news anchor Polly Esther, we follow co-anchor Holly Day around campus as she meets individuals with:
 - Powers of invisibility
 - Mind reading abilities
 - Superspeed
@@ -45,6 +45,7 @@ We opted for the larger v-lock battery on Day 3, which made shooting much more s
 While shooting, we played around with lighting, moving in and out of shadow, and using the ND filter to properly expose the image while outdoors. We also used the zebra lines setting on the camera to tell when the image was overexposed, and even had to reshoot a scene in a different location once we realized the exposure in the original location was too high. Using these techniques, we got well-exposed video in several different locations for the video.
 
 ## Editing
+The editing process was long and tedious. From the get-go we had decided on an editing heavy process due to the usage of superpowers. However, this task got even tougher due to other issues such as matching audio sources, color correcting the videos etc. Additionally, our shooting utilised both phone shots, and camera shots, that had to be edited in a way that they seemed a part of the same production. Most of the effort went into making the superpowers seem realistic - the speedster's superpower amongst these required the most effort as we realized quite late that our shooting method was flawed and this required heavy work in post production to correct. We also utilized other common techniques such as chroma keying for the green screen used in the reporter scenes.
 
 ## Web Design
 For the Web Design process, we decided to utilize a template in order to adapt it to our needs. Doing this allowed us to focus on the interactive parts of the website and creating an experience that would be entertaining and inmersive enough. In order to allow the reader to feel as if it was a real news website, we added multiple fake news that are both related to general modern news or news related to the super powers, which is a component that simulates how news would somehow react if super powers appeared in real life. 
@@ -75,4 +76,4 @@ I was initially worried about the scale of the project, the amount of equipment 
 My expectations and goals were met for this assignment. I think our group worked very well together— we were all on the same page right from the get-go when we were coming up with our concept, finalizing it from the first day. Even then, we did encounter some scheduling issues, and it was often difficult for all of us to meet at the same time to film a scene. Nonetheless, there was never any conflict, and we were all open to and vocal about changes that needed to be made.
 
 ## Sneheel
-
+I was extremely excited about this project from the beginning and I continue to be just as excited waitign to present this project to everyone in class. Our group has worked hard and maintained a high level of communication throughout to finally achieve a satisfying goal. this project had several moving parts and requried a high level of collaboration which we successfully managed to pull off. At the end of the day, I believe we were faithful to our initial concept and added very few parts to it to make our story more coherent. I came into the project with high expectations. I also wanted to do something other than design most of the code this time. Both the expectations and my goals were met thoroughly through the project as I got to handle most of the editing!
